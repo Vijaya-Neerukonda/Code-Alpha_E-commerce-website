@@ -1,0 +1,128 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-attachment: fixed;
+}
+
+.logo{
+    margin-top:5px;
+    width:100px;
+    height:70px;
+    margin-right: 20px;
+}
+.head{
+    margin-top: 40px;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height:50px;
+
+    padding: 10px;
+    
+}
+p{
+    font-size: 35px;
+    margin-top: 10px;
+    color:crimson;
+    font-style: oblique;
+    font-weight: bold;
+    flex:1;
+}
+ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top:70px;
+    margin-right: 50px;
+    gap:30px;
+    text-decoration:none;
+    color:darkgray;
+    font-weight:unset;
+    font-family:'Courier New', Courier, monospace;
+    flex:1;
+}
+.list>li:hover{
+   color:crimson;
+    font-style: oblique;
+     font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+    visibility: visible ;
+    flex:1;
+   
+}
+.list a {
+   font-size: 20px;
+   text-decoration: none;
+   color:rgb(102, 102, 102);
+}
+
+/* head section */
+.head{
+    display: flex;
+
+}
+/* left part */
+.left-part{
+    display:flex;
+    /* border:2px solid black; */
+    margin-top:55px;
+    margin-left: 40px;
+   
+    flex:1;
+}
+img{
+    width:500px;
+    height:400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 10px;
+}
+/* right part */
+.right-part{
+    display:flex;
+    flex-direction: column;
+    /* border:2px solid black; */
+    margin-right:60px;
+    flex:1;
+}
+.heading{
+    color:crimson;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.para{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#more{
+    display:none;
+}
+#myBtn{
+   
+    background-color: crimson;
+    width:120px;
+    height:50px;
+   
+    border:none;
+    box-shadow:10px 10px 5px crimson;
+    border-radius: 15px 15px 15px;
+   
+    margin-top: 20px;
+    margin-left: 100px;
+   
+  
+    
+}
+#myBtn:hover{
+    color:crimson;
+    background-color: white;
+    box-shadow:10px 10px 10px white ;
+    font-weight: bold;
+    font-size: 15px;
+    /* text-decoration: none; */
+
+}
+
